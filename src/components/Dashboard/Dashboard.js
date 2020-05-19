@@ -17,7 +17,7 @@ const Dashboard = () => {
     }, []);
 
     const getCountries = () => {
-        fetch('https://corona.lmao.ninja/countries', {
+        fetch('https://corona.lmao.ninja/v2/countries', {
             crossDomain: true,
             method: 'GET',
             headers: {
